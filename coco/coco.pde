@@ -61,9 +61,9 @@ void drawCaptions() {
       alpha.strokeWeight(5);
       alpha.rect(x,y,w,h);
       // text color and text size
-      alpha.fill(16, 75, 232);
-      alpha.textSize(20);
-      alpha.text(label,x,y-10);
+      //alpha.fill(16, 75, 232);
+      //alpha.textSize(20);
+      //alpha.text(label,x,y-10);
     }
   }
   alpha.endDraw();
