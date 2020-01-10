@@ -53,9 +53,11 @@ void drawCaptions() {
       float w = (box.getFloat(2) * width) - x;
       float h = (box.getFloat(3) * height) - y;
       // display bounding boxes
-      alpha.noFill();
+      //alpha.noFill();
       // bounding box color and stroke weight
       alpha.stroke(16, 75, 232);
+      // regola l'alpha del fill del rettangolo cambiando il quarto valore
+      alpha.fill(255, 224, 67, 40);
       alpha.strokeWeight(5);
       alpha.rect(x,y,w,h);
       // text color and text size
